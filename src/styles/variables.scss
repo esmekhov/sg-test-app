@@ -2,4 +2,18 @@ $family-primary: "FuturaFuturisRegular", BlinkMacSystemFont, -apple-system, "Seg
   "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
   "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
+$white: #FFFFFF;
 $brand-crimson: #ff2d00;
+$brand-deep-crimson: #bf2201;
+$danger: $brand-crimson;
+$brand-shade: hsl(0, 0%, 81%);
+$brand-half-shade: hsl(0, 0%, 91%);
+$brand-white: #fbfbfb;
+$body-background-color: #f1f1f1;
+
+$button-gradient-background-color: linear-gradient($white, $brand-half-shade);
+$button-gradient-background-color-danger: linear-gradient($brand-crimson, $brand-deep-crimson);
+
+$button-active-border-color: $brand-crimson;
+$button-hover-color: $brand-crimson;
+$button-active-color: $brand-crimson;

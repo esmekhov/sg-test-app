@@ -1,8 +1,7 @@
+@import '~src/styles/variables.scss';
+
 .header-counter {
   padding: 1rem;
   font-size: 1.5rem;
-  color: #ff2d00;
+  color: $brand-crimson;
 }
-// 1 rem padding
-// 28px size
-// red

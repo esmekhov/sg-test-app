@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Input, SimpleChanges, OnChanges, Output } from '@angular/core';
+import { Component, OnInit, Input, SimpleChanges, OnChanges } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormService } from '../services/form.service';
 import { ContentItem, ContentService } from '../services/content.service';

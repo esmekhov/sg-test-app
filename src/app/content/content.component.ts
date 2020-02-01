@@ -1,6 +1,5 @@
-import { Component, OnInit, ContentChild, AfterContentInit } from '@angular/core';
-import { ContentItem, ContentService } from '../services/content.service';
-import { ContentFormComponent } from '../content-form/content-form.component';
+import { Component, OnInit } from '@angular/core';
+import { ContentItem } from '../services/content.service';
 import { EventsService } from '../services/events.service';
 
 @Component({

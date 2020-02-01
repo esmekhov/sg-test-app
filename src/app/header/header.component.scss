@@ -1,8 +1,10 @@
+@import '~src/styles/variables.scss';
+
 nav.navbar {
-  border-bottom: 4px solid #ff2d00;
+  border-bottom: 4px solid $brand-crimson;
   margin-bottom: 1.5rem;
 }
 
 nav {
-  background-color: #fbfbfb;
+  background-color: $brand-white;
 }

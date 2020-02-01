@@ -11,6 +11,16 @@
   border-top: 4px solid $brand-crimson;
 }
 
+.button.button-gradient {
+  background: $button-gradient-background-color;
+
+  &.is-active,
+  &:active {
+    background: $button-gradient-background-color-danger;
+    color: $brand-white;
+  }
+}
+
 @import '~node_modules/bulma/sass/utilities/_all';
 @import '~node_modules/bulma/sass/base/_all';
 @import '~node_modules/bulma/sass/form/_all';
