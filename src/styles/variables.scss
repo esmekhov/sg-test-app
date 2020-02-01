@@ -11,6 +11,9 @@ $brand-half-shade: hsl(0, 0%, 91%);
 $brand-white: #fbfbfb;
 $body-background-color: #f1f1f1;
 
+$navbar-breakpoint: 320px;
+$navbar-background-color: $brand-white;
+
 $button-gradient-background-color: linear-gradient($white, $brand-half-shade);
 $button-gradient-background-color-danger: linear-gradient($brand-crimson, $brand-deep-crimson);
 
