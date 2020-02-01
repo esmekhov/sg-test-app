@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="app-bordered">
+    <app-content-table (edit)="onEdit($event)"></app-content-table>
+  </div>
+  <app-content-toolbar (add)="onAdd()" ></app-content-toolbar>
+  <app-content-modal [visible]="modalVisible" (closeModal)="onCloseModal()">
+    <app-content-form [editMode]="editMode" [contentItem]="item"></app-content-form>
+  </app-content-modal>
+</div>

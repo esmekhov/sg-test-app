@@ -1,0 +1,30 @@
+<div class="box top-border">
+  <h1 class="title level-item">{{ title }}</h1>
+  <form [formGroup]="contentForm" class="margin-bottom">
+
+    <div class="field">
+      <div class="control is-expanded">
+        <input class="input" type="number" formControlName="value">
+      </div>
+    </div>
+
+    <div class="field">
+      <div class="control is-expanded">
+        <textarea class="textarea" formControlName="comment" placeholder="Комментарий"></textarea>
+      </div>
+    </div>
+
+  </form>
+  <div class="level">
+    <div class="level-left">
+      <a class="button" (click)="onSubmit()">
+        Сохранить
+      </a>
+    </div>
+    <div class="level-right">
+      <a class="button is-danger" (click)="onCancel()">
+        Отменить
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<table class="table is-striped is-hoverable is-fullwidth">
+  <thead>
+    <tr>
+      <td>Id</td>
+      <td>Средство</td>
+      <td>Комментарий</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of data | async" (click)="onRowClick(row)">
+      <td>{{ row.id }}</td>
+      <td>{{ row.value | number:'1.2' }}</td>
+      <td>{{ row.comment }}</td>
+    </tr>
+  </tbody>
+</table>
