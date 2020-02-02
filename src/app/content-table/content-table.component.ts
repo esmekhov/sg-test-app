@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class ContentTableComponent implements OnInit {
 
-  private data: Observable<ContentItem[]>;
+  data: Observable<ContentItem[]>;
 
   @Output()
   edit = new EventEmitter();

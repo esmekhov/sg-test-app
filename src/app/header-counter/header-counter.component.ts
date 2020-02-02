@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class HeaderCounterComponent implements OnInit {
 
-  private value: Observable<number>;
+  value: Observable<number>;
 
   constructor(private contentService: ContentService) { }
 

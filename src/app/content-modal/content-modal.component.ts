@@ -8,7 +8,7 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 export class ContentModalComponent implements OnInit {
 
   @Input()
-  private visible = false;
+  visible = false;
 
   @Output()
   closeModal = new EventEmitter();

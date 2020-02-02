@@ -9,9 +9,9 @@ import { EventsService } from '../services/events.service';
 })
 export class ContentComponent implements OnInit {
 
-  private modalVisible = false;
-  private editMode = false;
-  private item: ContentItem;
+  modalVisible = false;
+  editMode = false;
+  item: ContentItem;
 
   constructor(public eventsService: EventsService) { }
 
