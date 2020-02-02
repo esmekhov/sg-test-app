@@ -60,7 +60,7 @@ export class ContentService {
 
   updateItem(item: ContentItem) {
     const foundIndex = this.store.items.findIndex((i) => i.id === item.id);
-    if (foundIndex > 0) {
+    if (foundIndex > -1) {
       this.store.items[foundIndex] = item;
       this.observableStore.next(this.store.items);
     }
